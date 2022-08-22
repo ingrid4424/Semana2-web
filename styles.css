@@ -70,11 +70,16 @@ main{
     flex-direction: center;
     align-items: center;
     justify-content: center;
+    
   background-color: #ffffff;
 }
 
 p{
+    color:black;
     font-size: 15px
+   
+    
+
     
 }
 
@@ -92,7 +97,9 @@ p{
 #character-information{
     display: flex;
     position: absolute;
-    background-color: blanchedalmond;
+    background-color: #9BBC;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
 }
