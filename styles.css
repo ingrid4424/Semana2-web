@@ -31,6 +31,7 @@ body{
     font-size: 30px; 
 }
 
+
 main{
     
     /* display: flex; */
@@ -69,6 +70,7 @@ main{
     display:flex;
     flex-direction: center;
     align-items: center;
+   
     justify-content: center;
     
   background-color: #ffffff;
@@ -77,9 +79,6 @@ main{
 p{
     color:black;
     font-size: 15px
-   
-    
-
     
 }
 
@@ -99,7 +98,34 @@ p{
     position: absolute;
     background-color: #9BBC;
     align-items: center;
+    text-align: center;
     justify-content: center;
     width: 100%;
     height: 100%;
+}
+
+.character-aboutme{
+    
+    width: 50%;
+    height:50%;
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 50px; 
+
+}
+
+#container-button{
+    text-align: center;
+    }
+
+.button{
+color: black;  
+border-radius: 40%;
+font-size: 25px;  
+ 
+}
+
+#character-contact{
+    display: flex;
 }
